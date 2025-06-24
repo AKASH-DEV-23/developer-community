@@ -2,7 +2,7 @@
 import axios from 'axios';
 import { toast } from '@/hooks/use-toast';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_URL = 'https://dev-community.duckdns.org/api' || 'http://localhost:5000/api';
 
 // Create axios instance
 const api = axios.create({

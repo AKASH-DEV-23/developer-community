@@ -17,7 +17,8 @@ const app = express();
 // ✅ Allowed frontend origins
 const allowedOrigins = [
   process.env.FRONTEND_URL || 'http://localhost:5173',
-  'http://localhost:8080' // <-- add other dev frontend URLs here
+  'http://localhost:8080',
+  'https://dev-community.duckdns.org'
 ];
 
 // ✅ Dynamic CORS config
